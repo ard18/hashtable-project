@@ -1,7 +1,7 @@
 # hashtable-project
 This is a C project undertaken at the undergraduate level. 
  
-Header File:	hashtable.h
+Header File:	hashtable.h\n
 Functions File: hashtable.c
 Main File:		hashmain.c
 
