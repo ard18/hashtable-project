@@ -1,8 +1,10 @@
 # hashtable-project
 This is a C project undertaken at the undergraduate level. 
  
-Header File:	hashtable.h\n
+Header File:	hashtable.h
+
 Functions File: hashtable.c
+
 Main File:		hashmain.c
 
 In this project, we implement hash tables in C.
