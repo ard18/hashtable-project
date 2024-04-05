@@ -31,9 +31,10 @@ So, in the first iteration, h becomes: h => 0\+65 (ascii of A) => 65\*65.
 
 Second iteration, h becomes: h => 65\*65 \+ 66 (ascii of B) => 65\*65\*66 \+ 66\*66.
 
-Third iteration, h becomes: h => 65\*65\*66 \+ 66\*66 \+ 67 (ascii of C) => 65\*\65\*\66\*67 \+ 66\*66\*67 \+ 67\*67.
+Third iteration, h becomes: h => 65\*65\*66 \+ 66\*66 \+ 67 (ascii of C) => 65\*65\*66\*67 \+ 66\*66\*67 \+ 67\*67.
 
 Finally our hash value for "ABC" is h = 18979291, and assuming our table size is 50,
+
 our index in the hash table is = 18979291 \% 50 = 41.
 
 Often, the hash function gives the same hash value for different words. This situation is called a collision.
